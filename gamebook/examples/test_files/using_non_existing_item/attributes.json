@@ -1,0 +1,28 @@
+{
+  "attributes" : [
+    {
+      "id" : 1,
+      "name" : "speed",
+      "curr" : 0,
+      "max" : 0
+    },
+    {
+      "id" : 2,
+      "name" : "intelligence",
+      "curr" : 0,
+      "max" : 0
+    },
+    {
+      "id" : 3,
+      "name" : "strength",
+      "curr" : 0,
+      "max" : 0
+    },
+    {
+      "id" : 4,
+      "name" : "love",
+      "curr" : 0,
+      "max" : 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/.pylintrc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/random_forests/Ada_boosting.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/random_forests/Best_random_forest.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/requirements.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shared_data/encoded_data.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shared_data/encoded_data.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support_files/data_preparation.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tests/test_data.py" charset="UTF-8" />
+  </component>
+</project>

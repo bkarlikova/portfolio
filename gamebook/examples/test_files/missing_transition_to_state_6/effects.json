@@ -1,0 +1,125 @@
+{
+  "effects" : [
+    {
+      "type" : "permanent",
+      "id" : 0,
+      "name" : "ultra speed",
+      "attribute_id": 3,
+      "value" : 3,
+      "operation" : "*"
+    },
+    {
+      "type" : "temporary",
+      "id" : 1,
+      "name" : "jumping",
+      "attribute_id": 2,
+      "value" : 3,
+      "operation" : "/"
+    },
+    {
+      "type" : "permanent",
+      "id" : 2,
+      "name" : "super lightness",
+      "attribute_id": 1,
+      "value" : 2,
+      "operation" : "*"
+    },
+    {
+      "type" : "permanent",
+      "id" : 3,
+      "name" : "invisibility",
+      "attribute_id": 4,
+      "value" : 3,
+      "operation" : "*"
+    },
+    {
+      "type" : "permanent",
+      "id" : 4,
+      "name" : "super small",
+      "attribute_id": 1,
+      "value" : 3,
+      "operation" : "/"
+    },
+    {
+      "type" : "temporary",
+      "id" : 5,
+      "name" : "super strength",
+      "attribute_id": 3,
+      "value" : 3,
+      "operation" : "*"
+    }
+  ,
+    {
+      "type" : "permanent",
+      "id" : 6,
+      "name" : "poison",
+      "attribute_id": 911,
+      "value" : 20,
+      "operation" : "-"
+    },
+    {
+      "type" : "permanent",
+      "id" : 7,
+      "name" : "dumbness",
+      "attribute_id": 3,
+      "value" : 5,
+      "operation" : "-"
+    },
+    {
+      "type" : "temporary",
+      "id" : 11,
+      "name" : "dumbness",
+      "attribute_id": 3,
+      "value" : 20,
+      "operation" : "-"
+    },
+    {
+      "type" : "temporary",
+      "id" : 8,
+      "name" : "blindness",
+      "attribute_id": 4,
+      "value" : 3,
+      "operation" : "/"
+    },
+    {
+      "type" : "permanent",
+      "id" : 9,
+      "name" : "healing",
+      "attribute_id": 911,
+      "value" : 2,
+      "operation" : "*"
+    },
+    {
+      "type" : "permanent",
+      "id" : 10,
+      "name" : "healing",
+      "attribute_id": 911,
+      "value" : 20,
+      "operation" : "+"
+    },
+    {
+      "type" : "temporary",
+      "id" : 12,
+      "name" : "inattention",
+      "attribute_id": 1,
+      "value" : 5,
+      "operation" : "%"
+    },
+    {
+      "type" : "permanent",
+      "id" : 13,
+      "name" : "inattention",
+      "attribute_id": 1,
+      "value" : 4,
+      "operation" : "-"
+    },
+    {
+      "type" : "permanent",
+      "id" : 14,
+      "name" : "blowing",
+      "attribute_id": 911,
+      "value" : 50,
+      "operation" : "-"
+    }
+  ]
+}

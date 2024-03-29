@@ -1,0 +1,20 @@
+{
+  "attributes" : [
+    {
+      "id" : 1,
+      "name" : "speed"
+    },
+    {
+      "id" : 2,
+      "name" : "intelligence"
+    },
+    {
+      "id" : 3,
+      "name" : "strength"
+    },
+    {
+      "id" : 4,
+      "name" : "love"
+    }
+  ]
+}
