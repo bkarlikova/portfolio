@@ -1,0 +1,43 @@
+(define
+    (problem TDD-problem)
+    (:domain TDD-domain)
+    (:objects t - trader
+              m1 m2 m3 - market
+              p1 p2 - product
+    )
+    (:init
+        (at t m3)
+        (= (product-amount-market p1 m1) 1)
+        (= (product-amount-market p1 m2) 2)
+        (= (product-amount-market p2 m1) 1)
+        (= (product-amount-market p2 m2) 2)
+        (= (product-amount-market p1 m3) 1)
+        (= (product-amount-market p2 m3) 2)
+        (= (product-amount-trader p1 t) 0)
+        (= (product-amount-trader p2 t) 0)
+        (= (product-amount-trader-desired p1 t) 2)
+        (= (product-amount-trader-desired p2 t) 4)
+        (= (product-prize-market p1 m1) 2)
+        (= (product-prize-market p2 m1) 5)
+        (= (product-prize-market p1 m2) 2)
+        (= (product-prize-market p2 m2) 1)
+        (= (product-prize-market p1 m3) 2)
+        (= (product-prize-market p2 m3) 9)
+        (= (path-prize m1 m2) 10)
+        (= (path-prize m1 m3) 4)
+        (= (path-prize m3 m1) 3)
+        (= (path-prize m3 m2) 12)
+        (= (path-prize m2 m1) 9)
+        (= (path-prize m2 m3) 1)
+        (= (cost) 0)
+    )
+    (:goal (and
+            (at t m1)
+           (>= (product-amount-trader p1 t) (product-amount-trader-desired p1 t))
+           (>= (product-amount-trader p2 t) (product-amount-trader-desired p2 t))
+        )
+    )
+    (:metric 
+        minimize (cost)
+    )
+)
