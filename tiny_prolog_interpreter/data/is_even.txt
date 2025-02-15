@@ -1,0 +1,6 @@
+is_even(z, t).
+is_even(s(z), f).
+
+is_even(s(s(X)), R) :- is_even(X, R).
+
+?- is_even(X, t).

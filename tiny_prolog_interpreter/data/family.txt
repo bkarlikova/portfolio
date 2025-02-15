@@ -1,0 +1,8 @@
+parent(john, mary).
+parent(john, tom).
+parent(mary, susan).
+parent(tom, lisa).
+
+grandparent(X, Y) :- parent(X, Z), parent(Z, Y).
+
+?-grandparent(john, X).

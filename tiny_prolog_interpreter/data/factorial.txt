@@ -1,0 +1,11 @@
+plus(z, N, N).
+plus(s(N), M, s(R)) :- plus(N, M, R).
+mult(z, _, z).
+mult(s(N), M, Result) :-
+    mult(N, M, TempResult),
+    plus(M, TempResult, Result).
+factorial(z, s(z)).
+factorial(s(N), Result) :-
+    factorial(N, TempResult),
+    mult(s(N), TempResult, Result).
+?-factorial(s(s(s(z))), X).

@@ -1,0 +1,10 @@
+btree(10, btree(5, 
+                 btree(2, empty, empty), 
+                 btree(7, empty, empty)),
+           btree(15, 
+                 btree(12, empty, empty), 
+                 btree(20, empty, empty))).
+contains(Value, btree(Value, _, _)).
+contains(Value, btree(_, Left, _)) :- contains(Value, Left).
+contains(Value, btree(_, _, Right)) :- contains(Value, Right).
+?-contains(10, T).

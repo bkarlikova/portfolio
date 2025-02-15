@@ -1,0 +1,4 @@
+member(X, [X|_]).
+member(X, [H|T]) :- member(X, T).
+?-member(X, [1,-1,2,A,0]).
+    

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <GenerateProgramFile>false</GenerateProgramFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="coverlet.collector" Version="6.0.2" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="src\Types.fs" />
+      <Compile Include="src\Tokenizer.fs" />
+      <Compile Include="src\Parser.fs" />
+      <Compile Include="src\Unification.fs" />
+      <Compile Include="src\Search.fs" />
+      <Compile Include="src\Evaluation.fs" />
+      <Compile Include="tests\TestParser.fs" />
+      <Compile Include="tests\TestUnification.fs" />
+      <Compile Include="tests\TestSearch.fs" />
+      <Compile Include="Program.fs" />
+      <Content Include="README.md" />
+      <Content Include="data\member.txt" />
+      <Content Include="data\family.txt" />
+      <Content Include="data\btree.txt" />
+      <Content Include="data\append.txt" />
+      <Content Include="data\member2.txt" />
+      <Content Include="data\factorial.txt" />
+      <Content Include="data\is_even.txt" />
+    </ItemGroup>
+
+</Project>
